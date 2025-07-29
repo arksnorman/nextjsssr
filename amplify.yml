@@ -1,11 +1,11 @@
 version: 1
 applications:
   - frontend:
-      # framework: nextjs
-      # buildCommand: npm run build
-      # startCommand: npm run start
-      # outputDir: .next
-      # buildType: web-compute
+      framework: nextjs
+      buildCommand: npm run build
+      startCommand: npm run start
+      outputDir: .next
+      buildType: web-compute
       phases:
         preBuild:
           commands:

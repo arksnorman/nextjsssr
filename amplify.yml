@@ -12,7 +12,7 @@ applications:
             - npm ci --cache .npm --prefer-offline
         build:
           commands:
-            - echo "Hello1"
+            - echo "Hello2"
             - npm run build
       artifacts:
         baseDirectory: .next
